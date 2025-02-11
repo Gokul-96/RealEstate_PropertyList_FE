@@ -18,7 +18,7 @@ const PropertyDetail = () => {
   return (
     <div>
   <h1>{property.title}</h1>
-      <img src={property.images[0]} alt={property.title}  />
+      <img src={property.image} alt={property.title}  />
       <p>{property.description}</p>
       <p>Price: ₹{property.price}</p>
       <p>Location: {property.location}</p>

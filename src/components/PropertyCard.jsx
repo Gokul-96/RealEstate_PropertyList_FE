@@ -5,7 +5,7 @@ const PropertyCard = ({property}) => {
   return (
     <div>
         <div>
-        <img src='property.images[0]' alt= {property.title}/>
+        <img src={property.image} alt= {property.title}/>
         
         <h4>{property.title}</h4>
         <p>{property.location}</p>

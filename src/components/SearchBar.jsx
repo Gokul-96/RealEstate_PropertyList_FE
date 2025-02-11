@@ -1,9 +1,15 @@
 import React from 'react'
 
-const SearchBar = () => {
+const SearchBar = ({ setSearchQuery }) => {
   return (
-    <div>SearchBar</div>
-  )
-}
+    <div>
+        <input 
+         type='text'
+         placeholder="Search by title / location"
+         onChange={(e) => setSearchQuery(e.target.value)}
+/>
+    </div>
+  );
+};
 
-export default SearchBar
+export default SearchBar;
