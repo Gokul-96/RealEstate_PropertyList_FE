@@ -16,10 +16,10 @@ const PropertyDetail = () => {
      if (!property) return <div>Loading...</div>;
       
   return (
-    <div>
+    <div className="container mt-4">
   <h1>{property.title}</h1>
       <img src={property.image} alt={property.title}  />
-      <p>{property.description}</p>
+      <p style={{ color: 'blue', fontWeight: 'bold' }}>{property.description}</p>
       <p>Price: ₹{property.price}</p>
       <p>Location: {property.location}</p>
       <p>Contact: {property.contact}</p>
