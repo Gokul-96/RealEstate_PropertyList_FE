@@ -24,6 +24,8 @@ API endpoint for single property list: http://localhost:8000/properties/${id}
 
 Backend Deployed Link : https://realestate-propertylist-be.onrender.com
 
+Frontend Deployment Link: https://suvik.netlify.app/
+
 
 Components :
 1.PropertyList: List the properties from backend using axios.
@@ -32,3 +34,4 @@ Components :
 4.SearchBar: For search by location or title I mean use for filtering.
 
 npm run dev - For start the frontend development server.
+
