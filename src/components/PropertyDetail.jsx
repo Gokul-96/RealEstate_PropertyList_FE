@@ -8,7 +8,7 @@ const PropertyDetail = () => {
     const { id } = useParams();
 
     useEffect(() => {
-        axios.get(`http://localhost:8000/property/${id}`)
+        axios.get(`https://realestate-propertylist-be.onrender.com/property/${id}`)
           .then(response => setProperty(response.data))
           .catch(error => console.error(error));
       }, [id]);

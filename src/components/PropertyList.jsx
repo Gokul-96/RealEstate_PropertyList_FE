@@ -8,7 +8,7 @@ const PropertyList = () => {
     const [properties, setProperties] = useState([]);
     const [searchQuery, setSearchQuery] = useState('');
     useEffect(() => {
-        axios.get('http://localhost:8000/property')
+        axios.get('https://realestate-propertylist-be.onrender.com/property')
           .then(response => setProperties(response.data))
           .catch(error => console.error(error));
       }, []);
